@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+body{
+    background-color:white;
+    padding: 0;
+    margin: 0;
+    bottom:0;
+}
+
+.prvi{
+    width:100%;
+    background-color:purple;
+    border-radius:25px;
+    height:300px;
+    position:relative;
+    top:-25px;
+  
+    
+    
+}
+.profile{
+  background-image: url(Dragon-Ball-Z-Goku.jpg);
+  background-size:100%;
+  background-position:4.5px;
+    background-color:aqua;
+    height:150px;
+
+    width:150px;
+    position:relative;
+    
+    
+top:230px;
+  margin:auto;
+  border-radius:50px;
+  box-shadow:4px 3px 8px 1px rgb(146, 144, 144);
+  -webkit-box-shadow: 4px 3px 8px 1px rgb(146, 144, 144);
+  transition: 0.5s;
+
+
+}
+.profile:hover{
+    width:200px;
+    height:200px;
+}
+.prvi>h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    font-size: 100px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px #F4A460;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-transform: uppercase;
+    transition: 0.5s;
+    opacity: 0.6;
+    -webkit-background-clip: text;
+   
+  }
+.prvi>h1:hover {
+    letter-spacing: 10px;
+  }
+
+  section{
+      position:relative;
+      
+      
+    top:150px;
+      width:100%;
+      height:100%;
+      
+      
+      background-color:rgb(255, 255, 255);
+      
+      border-radius: 25px;
+  
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  }
+  section figure{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+      width:100%;
+      height:100%;
+    margin:auto;
+    
+    width:100%
+  }
+section figure div{
+  text-align:center;
+  margin:auto;
+  margin-top:20px;
+  margin-bottom:20px;
+      position:relative;
+      background-color:white;
+      width:300px;
+      height:400px;
+      border-radius:25px;
+      box-shadow: rgb(168, 167, 167) 0 0 10px;
+      transition:0.2s;
+      color:  black;
+      font:normal;
+      font-size: 18px;
+      text-decoration:none;
+      overflow:hidden;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+    }
+    section figure div:hover{
+      width:310px;
+      height:410px;
+      font-size:20px;
+    }
+    section figure a{
+      text-decoration:none;
+      color:black;
+      
+    }
+  
+
+  .ayo{
+    background: black;
+    padding:10px 20px;
+    color:white;
+  }
+ 
+ button{
+   background-color:purple;
+   width:100px;
+   height:40px;
+   position:relative;
+   border-radius:10px;
+   cursor: pointer;
+   border: none;
+   color: #eeeeee;
+   transition: all 0.5s;
+   box-shadow: rgb(168, 167, 167) 0 0 10px;
+ }
+ button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: #f7c2f9;
+}
+button:hover span {
+  padding-right: 25px;
+}
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+footer{
+text-align:center;
+  background-color:white;
+  position:relative;
+  width:100%;
+  height: 50px;
+  top:300px;
+  color:rgb(246, 246,246);
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size:20px;
+
+  line-height: 70px;
+  
+  
+}
+footer img {
+  width:70px;
+  height:70px;
+}
+  .img1{
+    width:65px;
+    height:65px;
+  }
+@media screen and (max-width:960px){
+.prvi>h1{
+  font-size:70px;
+}
+@media screen and (max-width:714px){
+  .prvi>h1{
+    font-size:50px;
+  }
+  
